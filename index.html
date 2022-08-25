@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #displayImage{
+      background-position: center;
+      background-size: cover;
+      display: block;
+      background-color: blanchedalmond;
+    }
+  </style>
+</head>
+<body>
+  <input accept="image/*" type="file" name="image" id="fileInput">
+  <canvas id="displayImage" width="500" height="500"></canvas>
+  <button id="resetPoly">Reset poly</button>
+  <button id="finishPoly">Finish poly</button>
+  <script src="./script.js"></script>
+</body>
+</html>
